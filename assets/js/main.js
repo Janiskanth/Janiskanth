@@ -223,3 +223,10 @@
   new PureCounter();
 
 })()
+  /**
+   * Initiate automatic age counter 
+   */
+const birthYear = 1999;
+const currentYear = parseInt(new Date().getFullYear(), 10);
+const age = currentYear - birthYear;
+document.getElementById("age").textContent = age;

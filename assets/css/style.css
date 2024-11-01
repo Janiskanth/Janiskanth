@@ -21,6 +21,13 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+.text-justify {
+  text-align: justify;
+}
+
+ul.text-justify li {
+  text-align: justify;
+}
 
 @media (min-width: 1024px) {
   body::before {
